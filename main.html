@@ -5,8 +5,80 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		.green-background{
+			background-color: green;
+			height="500px"
+		}
+		.blue-background{
+			background-color: blue;
+		}
+	</style>
 
 <body>
+	<table class="middle" border="1" style="width:100%">
+		<caption><h1>HTML Assignment #3</h1></caption>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td> 
+			<td class="right">right</td> 
+		</tr>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td> 
+			<td class="right">right</td> 
+		</tr>
+		<tr>
+			<td>left</td>
+			<td class="center">center</td> 
+			<td class="right">right</td> 
+		</tr>
+	</table>
+	<br>
+	<table class="middle" style="width:100%" border="1" height="100px">
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+		<tr>
+			<td rowspan="4"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="3" rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+	</table>
+	<br>
+	<table class="middle" style="width:100%" border="1">
+		<tr class="green-background">
+			<td></td>
+		</tr>
+		<tr class="middle-row">
+			<td><img src="https://images.unsplash.com/photo-1689457362806-af3a973a3c45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"/></td>
+		</tr>
+		<tr class="blue-background">
+			<td></td>
+		</tr>
+	</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
